@@ -1,0 +1,50 @@
+{
+  "benchmark_4pass": {
+    "slack_free_qubits": 4,
+    "standard_qubits": 8,
+    "exact_priority": 11.0,
+    "qaoa_priority": 11.0,
+    "schedule": {
+      "pass_0": 1,
+      "pass_1": 0,
+      "pass_2": 0,
+      "pass_3": 1
+    },
+    "success_rate": "10/10"
+  },
+  "benchmark_6pass": {
+    "slack_free_qubits": 6,
+    "standard_qubits": 11,
+    "exact_priority": 18.0,
+    "qaoa_priority": 18.0,
+    "schedule": {
+      "pass_0": 1,
+      "pass_1": 0,
+      "pass_2": 0,
+      "pass_3": 1,
+      "pass_4": 1,
+      "pass_5": 0
+    },
+    "success_rate": "10/10"
+  },
+  "scaling": [
+    {
+      "passes": 4,
+      "standard_qubits": 7,
+      "slack_free_qubits": 4,
+      "reduction_%": 42.9
+    },
+    {
+      "passes": 6,
+      "standard_qubits": 9,
+      "slack_free_qubits": 6,
+      "reduction_%": 33.3
+    },
+    {
+      "passes": 8,
+      "standard_qubits": 12,
+      "slack_free_qubits": 8,
+      "reduction_%": 33.3
+    }
+  ]
+}

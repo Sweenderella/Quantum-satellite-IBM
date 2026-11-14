@@ -1,0 +1,13 @@
+{
+  "job_id": "dbs9sdujjaos73ajucng",
+  "backend": "ibm_fez",
+  "shots_per_scenario": 1024,
+  "scenario_order": [
+    "original",
+    "synthetic_101",
+    "synthetic_102",
+    "synthetic_103",
+    "synthetic_104"
+  ],
+  "manifest_sha256": "f902ef2e39bb13bdee27c9c316532a61f312b30669411f6744a29b205849f902"
+}

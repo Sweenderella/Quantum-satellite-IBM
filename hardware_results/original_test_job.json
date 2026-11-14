@@ -1,0 +1,6 @@
+{
+  "job_id": "dbs9lbok09pc73avthe0",
+  "backend": "ibm_fez",
+  "shots": 256,
+  "manifest": "original_test_manifest.json"
+}

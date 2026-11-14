@@ -1,0 +1,11 @@
+.env
+qiskit-ibm.json
+**/qiskit-ibm.json
+*setup*.py
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+qiskit-env/
+.virtual_documents/
+presentation_results/
